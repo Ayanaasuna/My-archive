@@ -95,6 +95,42 @@ body {
     text-decoration: none;
 }
 
+.content-section {
+    max-width: 300px;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+article {
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+
+
+article img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+article h2, article p {
+    color: rgb(200,200,200);
+    font-family: "Times New Roman", serif;
+}
+
+
+
+
 /* MOBILE TEXT CENTERED BELOW HEADER */
 .mobile-only{
     display: block;
