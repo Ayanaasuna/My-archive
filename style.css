@@ -285,8 +285,8 @@ font-family: "myfont";
 
  .subpage .button {
         min-width: 8rem;
-        font-size: 1.2rem;
-        min-width: 8rem;
+        font-size: 1rem;
+        min-width: 2rem;
         padding: 0.6rem 1.4rem;
         white-space: nowrap;
     }
