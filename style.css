@@ -284,7 +284,7 @@ font-family: "myfont";
   }
 
  .subpage .button {
-        font-size: 1rem;
+        font-size: 0.5rem;
         width: auto;
         max-width: 100%;
         padding: 0.5rem 1.2rem;
