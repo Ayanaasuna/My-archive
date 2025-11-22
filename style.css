@@ -292,10 +292,11 @@ font-family: "myfont";
     }
 
   .subpage .sub-heading.desktop-only {
-      flex: 1;               
+      flex: 1;           
+      max-width: 50%;    
       margin-right: 3rem;   
       color: rgb(187,187,187);
-      text-align: center;
+      text-align: left;
   }
 
 
