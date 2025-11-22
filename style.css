@@ -284,9 +284,10 @@ font-family: "myfont";
   }
 
  .subpage .button {
-        font-size: 1rem;
-        max-width: 3.5rem;
-        padding: 0.5rem 0.5rem;
+        font-size: 1.3rem;
+        max-width: 4rem;
+        height: auto;
+        padding: 0.rem 0.5rem;
         white-space: nowrap;
     }
 
@@ -301,13 +302,13 @@ font-family: "myfont";
 
 
   .subpage .sub-heading h1{
-font-family: "myfont";
+    font-family: "myfont";
     }
 
   .subpage .nav-buttons {
       display: flex;
       gap: 1rem;
-      margin-right: 2rem;  
+      margin-right: 0rem;  
   }
 
   .subpage .logo {
