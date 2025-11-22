@@ -2,6 +2,11 @@ html {
     font-size: 16px;
 }
 
+@font-face {
+    font-family: "myfont";
+    src: url("./myfont/AyanaSigils.ttf");
+}
+
 body {
     background-color: black;
 }
@@ -57,6 +62,8 @@ body {
 
 /*subpages*/
 
+
+
 .subpage header {
     display: flex;
     justify-content: flex-end; 
@@ -68,10 +75,16 @@ body {
     position: relative;
 }
 
+.sub-heading h1 {
+    font-family: "myfont";
+}
+
+
 .subpage .logo{
     width: 10rem;
     margin-left: 1rem;
 }
+
 
 .subpage .nav-buttons{
     display: flex;
@@ -222,6 +235,10 @@ article section{
 .subpage .logo{
     max-width: 8rem;
 }
+.subpage .sub-heading h1{
+font-family: "myfont";
+    }
+
 }
 
 /*>1200px*/
@@ -248,6 +265,11 @@ article section{
       color: rgb(187,187,187);
       text-align: center;
   }
+
+
+  .subpage .sub-heading h1{
+font-family: "myfont";
+    }
 
   .subpage .nav-buttons {
       display: flex;
