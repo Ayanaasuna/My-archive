@@ -284,10 +284,11 @@ font-family: "myfont";
   }
 
  .subpage .button {
-        min-width: 8rem;
         font-size: 1rem;
         max-width: 2rem;
-        padding: 0.6rem 1.4rem;
+        width: auto;
+        max-width: 100%;
+        padding: 0.5rem 1.2rem;
         white-space: nowrap;
     }
 
