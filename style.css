@@ -243,7 +243,65 @@ font-family: "myfont";
 
 }
 
+/*landscape phone mode*/
 
+@media (orientation: landscape) and (max-height: 500px) {
+    .mobile-only { display: none; }
+    .desktop-only { display: block; }
+
+     .subpage header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 2rem 3rem;
+      height: 6rem;   
+      box-sizing: border-box;
+      padding-top: 5rem;
+  }
+
+  .subpage .sub-heading.desktop-only {
+      flex: 1;              
+      white-space: nowrap;  
+      margin-right: 3rem;   
+      color: rgb(187,187,187);
+      text-align: center;
+  }
+
+
+  .subpage .sub-heading h1{
+font-family: "myfont";
+    }
+
+  .subpage .nav-buttons {
+      display: flex;
+      gap: 1rem;
+      margin-right: 2rem;  
+  }
+
+  .subpage .logo {
+      width: 13rem;
+  }
+  
+ .content-section {
+    align-items: center;
+    max-width: 1200px;
+    }
+
+    .content-section article {
+        width:80%;
+        flex-direction: row;      
+        text-align: left;
+        align-items: center;
+    }
+
+   .content-section article img {
+        width: auto;
+        max-width: 30%;              
+        height: auto;
+        margin-right: 2rem;      
+    }
+
+}
 
 /*>1200px*/
 
@@ -305,64 +363,5 @@ font-family: "myfont";
     }
 }
 
-/*landscape phone mode*/
 
-@media (orientation: landscape) and (max-height: 500px) {
-    .mobile-only { display: none; }
-    .desktop-only { display: block; }
-
-     .subpage header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 2rem 3rem;
-      height: 6rem;   
-      box-sizing: border-box;
-      padding-top: 5rem;
-  }
-
-  .subpage .sub-heading.desktop-only {
-      flex: 1;              
-      white-space: nowrap;  
-      margin-right: 3rem;   
-      color: rgb(187,187,187);
-      text-align: center;
-  }
-
-
-  .subpage .sub-heading h1{
-font-family: "myfont";
-    }
-
-  .subpage .nav-buttons {
-      display: flex;
-      gap: 1rem;
-      margin-right: 2rem;  
-  }
-
-  .subpage .logo {
-      width: 13rem;
-  }
-  
- .content-section {
-    align-items: center;
-    max-width: 1200px;
-    }
-
-    .content-section article {
-        width:80%;
-        flex-direction: row;      
-        text-align: left;
-        align-items: center;
-    }
-
-   .content-section article img {
-        width: auto;
-        max-width: 30%;              
-        height: auto;
-        margin-right: 2rem;      
-    }
-
-
-}
 
