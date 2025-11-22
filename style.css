@@ -313,6 +313,7 @@ font-family: "myfont";
 
   .subpage .logo {
       width: 12rem;
+      margin-right: -3rem;
   }
   
  .content-section {
