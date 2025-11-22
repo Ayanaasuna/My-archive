@@ -284,10 +284,9 @@ font-family: "myfont";
   }
 
  .subpage .button {
-        font-size: 0.5rem;
-        width: auto;
-        max-width: 100%;
-        padding: 0.5rem 1.2rem;
+        font-size: 1rem;
+        max-width: 3.5rem;
+        padding: 0.5rem 0.5rem;
         white-space: nowrap;
     }
 
@@ -297,6 +296,7 @@ font-family: "myfont";
       margin-right: 3rem;   
       color: rgb(187,187,187);
       text-align: left;
+      margin-top: 50px;
   }
 
 
@@ -311,12 +311,13 @@ font-family: "myfont";
   }
 
   .subpage .logo {
-      width: 13rem;
+      width: 10rem;
   }
   
  .content-section {
     align-items: center;
     max-width: 1200px;
+    margin-top: 5em;
     }
 
     .content-section article {
