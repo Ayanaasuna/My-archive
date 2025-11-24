@@ -105,7 +105,11 @@ body {
     color: black;
     border-radius: 50px;
     text-decoration: none;
+
 }
+
+.button:hover {
+    background-color: #666;}
 
 .content-section {
     max-width: 90%;
